@@ -54,7 +54,7 @@ export default function Home() {
                   He&apos;s become her biggest fan of period dramas, and she&apos;s become his patient teacher of all things gaming and tech.
                 </p>
                 <p className="text-lg mb-6">
-                  The proposal came during a weekend trip to Kleinrivier for her dad&apos;s 60th birthday celebration. 
+                  The proposal came during a weekend trip to Kleinrivier for his dad&apos;s 60th birthday celebration. 
                   They went on a hike together, and his brother tried in vain to give him the perfect opportunity to propose. 
                   After two hours of walking with no chance presenting itself, he decided to propose at a chalet in the middle of nowhere. 
                   She said yes, and spent the next four hours in complete shock—though she&apos;d been hoping for this moment, 
