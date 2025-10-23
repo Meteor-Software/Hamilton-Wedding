@@ -107,59 +107,59 @@ export default function Ceremony() {
                   <div className="max-w-2xl mx-auto">
                     <div className="card animate-fadeInUp">
                       <h3 className="text-gold mb-6 text-xl">Order of Events</h3>
-                      <div className="space-y-4 text-left">
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">3:00-4:00 PM</span>
+                      <div className="text-left">
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>3:00-4:00 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Guest arrival</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">4:00 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>4:00 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Ceremony begins</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">4:30 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>4:30 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Cocktail hour</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">5:45 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>5:45 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Party entrance</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">6:00 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>6:00 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Dinner</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">6:45 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>6:45 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Toasts</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">7:15 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>7:15 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Cake cutting</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">7:30 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>7:30 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">First dance</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">7:45 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>7:45 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Parent dances</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">8:15 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0', marginBottom: '6px' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>8:15 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Bouquet toss</span>
                         </div>
-                        <div className="flex items-center">
-                          <span className="text-gold font-bold w-32">8:30 PM</span>
+                        <div className="flex items-center" style={{ padding: '6px 0' }}>
+                          <span className="text-gold font-bold" style={{ width: '140px', minWidth: '140px' }}>8:30 PM</span>
                           <span className="text-gray-600 mx-2">—</span>
                           <span className="text-gray-800">Dance till late</span>
                         </div>
