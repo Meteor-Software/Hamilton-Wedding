@@ -1,0 +1,97 @@
+// Hamilton Wedding Color Palette
+// =============================
+
+// Your Specified Colors
+$primary-sage: #80968B;        // Sage green
+$primary-lavender: #DAB1DA;    // Lavender purple  
+$primary-cream: #f6f7ec;       // Cream
+
+// Classic Bridgerton Accent Colors
+$regency-gold: #B8860B;        // Classic gold
+$regency-navy: #2C3E50;        // Deep navy blue
+$regency-burgundy: #8B0000;    // Deep burgundy
+$regency-ivory: #FFFEF7;       // Pure ivory
+
+// Extended Color Palette (Legacy - can be removed if not used)
+$legacy-gold: #D4A574;        // Warm gold accent
+$legacy-rose: #E8B4B8;        // Soft rose
+$legacy-ivory: #FFFFFF;       // Pure white
+
+// Secondary Colors
+$secondary-sage-dark: #6B7B6B; // Darker sage
+$secondary-lavender-dark: #C4A1C4; // Darker lavender
+$secondary-cream-dark: #E8E9DC; // Darker cream
+
+// Additional Accent Colors
+$accent-sage-light: #A8B8A8;   // Light sage
+$accent-lavender-light: #E4C4E4; // Light lavender
+
+// Neutral Colors
+$white: #FFFFFF;
+$black: #1A1A1A;
+$gray-50: #FAFAFA;
+$gray-100: #F5F5F5;
+$gray-200: #EEEEEE;
+$gray-300: #E0E0E0;
+$gray-400: #BDBDBD;
+$gray-500: #9E9E9E;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+
+// Text Colors
+$text-primary: $gray-900;
+$text-secondary: $gray-600;
+$text-light: $gray-500;
+$text-accent: $primary-lavender;
+
+// Background Colors
+$bg-primary: $white;
+$bg-secondary: $primary-cream;
+$bg-accent: $regency-ivory;
+
+// Border Colors
+$border-light: $gray-200;
+$border-medium: $gray-300;
+$border-accent: $regency-gold;
+
+// Modern Shadow Colors
+$shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Elegant Gradients Using Your Colors
+$gradient-primary: linear-gradient(135deg, $primary-lavender 0%, $primary-sage 100%);
+$gradient-secondary: linear-gradient(135deg, $primary-sage 0%, $regency-gold 100%);
+$gradient-accent: linear-gradient(135deg, $primary-cream 0%, $regency-ivory 100%);
+$gradient-hero: linear-gradient(135deg, $regency-navy 0%, $primary-lavender 50%, $primary-sage 100%);
+$gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+
+// Status Colors
+$success: #10B981;
+$warning: #F59E0B;
+$error: #EF4444;
+$info: #3B82F6;
+
+// Modern Spacing Scale
+$space-xs: 0.25rem;
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 1.5rem;
+$space-xl: 2rem;
+$space-2xl: 3rem;
+$space-3xl: 4rem;
+$space-4xl: 6rem;
+
+// Modern Border Radius
+$radius-sm: 0.375rem;
+$radius-md: 0.5rem;
+$radius-lg: 0.75rem;
+$radius-xl: 1rem;
+$radius-2xl: 1.5rem;
+$radius-full: 9999px;
+

@@ -1,0 +1,96 @@
+@use '../styles/variables' as *;
+
+.header {
+  background: linear-gradient(135deg, #2C3E50 0%, #DAB1DA 50%, #80968B 100%);
+  padding: $space-4xl 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="shimmer-pattern" width="200" height="200" patternUnits="userSpaceOnUse"><ellipse cx="50" cy="50" rx="25" ry="12" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/><circle cx="150" cy="80" r="15" fill="rgba(255,255,255,0.06)"/><ellipse cx="80" cy="120" rx="20" ry="8" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.8"/><circle cx="180" cy="30" r="8" fill="rgba(255,255,255,0.04)"/><ellipse cx="30" cy="150" rx="18" ry="6" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.6"/><circle cx="120" cy="40" r="6" fill="rgba(255,255,255,0.05)"/><ellipse cx="160" cy="160" rx="12" ry="5" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/></pattern></defs><rect width="200" height="200" fill="url(%23shimmer-pattern)"/></svg>');
+    opacity: 0.4;
+    animation: shimmer-bg 8s ease-in-out infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.2) 0%, transparent 60%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.15) 0%, transparent 60%),
+                radial-gradient(circle at 60% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 100;
+    color: $primary-cream;
+    margin-bottom: $space-lg;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    letter-spacing: 0.1em;
+    line-height: 1.1;
+    animation: fadeInUp 1s ease-out;
+    font-family: var(--font-great-vibes), 'Great Vibes', 'Brush Script MT', 'Lucida Handwriting', cursive !important;
+
+    @media (max-width: 768px) {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+    }
+  }
+
+  .subtitle {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    color: $primary-cream;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+    animation: fadeInUp 1s ease-out 0.2s both;
+    font-style: italic;
+
+    @media (max-width: 768px) {
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.02);
+  }
+}
+
