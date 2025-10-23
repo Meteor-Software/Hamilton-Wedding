@@ -19,13 +19,13 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Hamilton Wedding - Sarah & Michael",
-  description: "Join us in celebrating the union of Sarah and Michael on June 15, 2024. RSVP and wedding details.",
-  keywords: "wedding, Hamilton, Sarah, Michael, ceremony, reception, RSVP",
+  title: "Hamilton Wedding - Luke & Shaneel",
+  description: "Join us in celebrating the union of Luke & Shaneel. RSVP and wedding details.",
+  keywords: "wedding, Hamilton, Luke, Shaneel, ceremony, reception, RSVP",
   authors: [{ name: "Hamilton Wedding" }],
   openGraph: {
-    title: "Hamilton Wedding - Sarah & Michael",
-    description: "Join us in celebrating the union of Sarah and Michael on June 15, 2024.",
+    title: "Hamilton Wedding - Luke & Shaneel",
+    description: "Join us in celebrating the union of Luke and Shaneel.",
     type: "website",
     locale: "en_US",
   },
