@@ -97,7 +97,7 @@ export default function RSVP() {
                     </div>
                     <div className="flex items-center py-2">
                       <div className="w-2 h-2 bg-gold rounded-full mr-4 flex-shrink-0"></div>
-                      <span className="text-gray-800">Whether you'll be attending</span>
+                      <span className="text-gray-800">Whether you&apos;ll be attending</span>
                     </div>
                     <div className="flex items-center py-2">
                       <div className="w-2 h-2 bg-gold rounded-full mr-4 flex-shrink-0"></div>

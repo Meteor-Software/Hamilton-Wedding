@@ -23,6 +23,13 @@ export const metadata: Metadata = {
   description: "Join us in celebrating the union of Luke & Shaneel. RSVP and wedding details.",
   keywords: "wedding, Hamilton, Luke, Shaneel, ceremony, reception, RSVP",
   authors: [{ name: "Hamilton Wedding" }],
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-16x16.svg', sizes: '16x16', type: 'image/svg+xml' }
+    ],
+    apple: { url: '/favicon.svg', type: 'image/svg+xml' }
+  },
   openGraph: {
     title: "Hamilton Wedding - Luke & Shaneel",
     description: "Join us in celebrating the union of Luke and Shaneel.",

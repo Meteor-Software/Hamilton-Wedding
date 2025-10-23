@@ -149,7 +149,7 @@ export default function People() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {/* Bride's Parents */}
               <div className="card animate-fadeInUp">
-                <h3 className="text-gold mb-4 text-xl">Bride's Parents</h3>
+                <h3 className="text-gold mb-4 text-xl">Bride&apos;s Parents</h3>
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <span className="text-sage font-semibold w-24">Mother</span>
@@ -166,7 +166,7 @@ export default function People() {
 
               {/* Groom's Parents */}
               <div className="card animate-fadeInUp">
-                <h3 className="text-gold mb-4 text-xl">Groom's Parents</h3>
+                <h3 className="text-gold mb-4 text-xl">Groom&apos;s Parents</h3>
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <span className="text-sage font-semibold w-24">Mother</span>
