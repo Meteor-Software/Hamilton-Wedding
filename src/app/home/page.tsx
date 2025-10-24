@@ -51,7 +51,7 @@ export default function Home() {
                   Their love story is beautifully balanced—while she binge-watches Bridgerton, Gossip Girl, and The Kardashians, 
                   she gets to learn about Warhammer, random facts, World of Warcraft, and computers.  They&apos;ve discovered that 
                   the best relationships are built on sharing each other&apos;s worlds, even when those worlds seem completely different. 
-                  He&apos;s become her biggest fan of period dramas, and he&apos;s become her patient teacher of all things gaming and tech.
+                  She&apos;s shown him the world of period dramas and reality TV, and he&apos;s become her patient teacher of all things gaming and tech.
                 </p>
                 <p className="text-lg mb-6">
                   The proposal came during a weekend trip to Kleinrivier for his dad&apos;s 60th birthday celebration. 
