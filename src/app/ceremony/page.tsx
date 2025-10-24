@@ -169,6 +169,32 @@ export default function Ceremony() {
                 </div>
               </div>
             </section>
+
+            {/* BYOB Section */}
+            <section className="section">
+              <div className="container">
+                <div className="text-center">
+                  <h2 className="text-lavender mb-8 animate-fadeInUp">Beverage Information</h2>
+                  <div className="w-24 h-px bg-gradient-to-r from-transparent via-lavender to-transparent mx-auto mb-8"></div>
+                  <div className="max-w-2xl mx-auto">
+                    <div className="card animate-fadeInUp">
+                      <h3 className="text-gold mb-6 text-xl">BYOB - Bring Your Own Beverage</h3>
+                      <div className="text-center">
+                        <p className="text-lg text-gray-700 mb-4">
+                          We&apos;re excited to celebrate with you! Please feel free to bring your favorite beverages to enjoy during the celebration.
+                        </p>
+                        <div className="bg-gradient-to-r from-gold/10 to-lavender/10 p-6 rounded-lg border border-gold/20">
+                          <p className="text-gold font-semibold text-lg mb-2">Champagne will be served</p>
+                          <p className="text-gray-600">
+                            We&apos;ll be providing champagne for toasts and special moments throughout the evening.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
       </main>
 
       <Footer />
